@@ -8,12 +8,41 @@ body {
 /* Layout */
 
 #page-wrapper{
-	width: 1366px;
+	width: 1320px;
 	margin: 0 auto;
 }
 
 #page {
-	width: 1366px;
+	width: 1320px;
 	height: 768px;
-	background-color: rgb(243, 243, 243);
+	background-color: rgb(120, 120, 120);
+	position: relative;
+	padding-top: 100px
+}
+
+#content {
+	width: 900px;
+	height: 600px;
+	background-color: red;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	right: 210px;
+}
+
+#door-section{
+	width: 1000px;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	right: 160px;
+	background-color: green;
+}
+
+#decoration-section{
+	width: 1320px;
+	height: 768px;
+	background: url(images/decoration.png) no-repeat;
+	position: absolute;
 }
