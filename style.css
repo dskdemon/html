@@ -1,0 +1,19 @@
+﻿
+/* Reset HTML */
+
+body {
+	margin: 0px;
+}
+
+/* Layout */
+
+#page-wrapper{
+	width: 1366px;
+	margin: 0 auto;
+}
+
+#page {
+	width: 1366px;
+	height: 768px;
+	background-color: rgb(243, 243, 243);
+}
